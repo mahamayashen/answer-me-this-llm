@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
-import openai
 import os
+import pinecone
 
 from langchain.document_loaders import UnstructuredPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
