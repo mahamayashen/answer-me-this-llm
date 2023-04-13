@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import pinecone
 import openai
 import os
 
